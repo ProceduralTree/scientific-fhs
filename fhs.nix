@@ -115,8 +115,8 @@ let
 
   nvidiaPackages = pkgs:
     with pkgs; [
-      cudatoolkit_11
-      cudnn_cudatoolkit_11
+      cudaPackages.cudatoolkit
+      cudaPackages.cudnn
       linuxPackages.nvidia_x11
     ];
 
