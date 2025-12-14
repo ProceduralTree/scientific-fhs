@@ -181,7 +181,7 @@ let
     + optionalString (enableConda && enableJulia) conda_julia_envvars
     + optionalString enableNVIDIA nvidia_envvars;
 
-  multiPkgs = pkgs: with pkgs; [ zlib ];
+  multiPkgs = pkgs: with pkgs; [ zlib xz ];
 
   condaInitScript = ''
     conda-install
