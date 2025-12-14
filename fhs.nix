@@ -171,7 +171,7 @@ let
   '';
 
   nvidia_envvars = ''
-    export CUDA_PATH=${pkgs.cudatoolkit_11}
+    export CUDA_PATH=${pkgs.cudaPackages.cudatoolkit}
     export LD_LIBRARY_PATH=${pkgs.cudaPackages.cudatoolkit}/lib:${pkgs.cudaPackackes.cudnn}/lib:${pkgs.cudaPackages.cudatoolkit.lib}/lib:${pkgs.zlib}/lib:$LD_LIBRARY_PATH
     export EXTRA_LDFLAGS="-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib"
   '';
