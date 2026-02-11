@@ -93,7 +93,7 @@ let
       libICE
       libSM
       libx11
-      libxScrnSaver
+      libxscrnsaver
       libxcomposite
       libxcursor
       libxdamage
