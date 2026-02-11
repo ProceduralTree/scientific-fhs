@@ -38,7 +38,7 @@ let
       openssl
       stdenv.cc
       unzip
-      utillinux
+      util-linux
       which
       texliveScheme
       ncurses
@@ -90,26 +90,25 @@ let
       vulkan-headers
       vulkan-validation-layers
       wayland
-      xorg.libICE
-      xorg.libSM
-      xorg.libX11
-      xorg.libXScrnSaver
-      xorg.libXcomposite
-      xorg.libXcursor
-      xorg.libXcursor
-      xorg.libXdamage
-      xorg.libXext
-      xorg.libXfixes
-      xorg.libXi
-      xorg.libXinerama
-      xorg.libXrandr
-      xorg.libXrender
-      xorg.libXt
-      xorg.libXtst
-      xorg.libXxf86vm
-      xorg.libxcb
-      xorg.libxkbfile
-      xorg.xorgproto
+      libICE
+      libSM
+      libx11
+      libxScrnSaver
+      libxcomposite
+      libxcursor
+      libxdamage
+      libxext
+      libxfixes
+      libxi
+      libxinerama
+      libxrandr
+      libxrender
+      libxt
+      libxtst
+      libxxf86vm
+      libxcb
+      libxkbfile
+      xorgproto
       zlib
     ];
 
